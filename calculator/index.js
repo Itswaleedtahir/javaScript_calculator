@@ -19,6 +19,7 @@ function printOutput(num){
 		document.getElementById("output-value").innerText=getFormattedNumber(num);
 	}	
 }
+//Not Allowing any other values
 function getFormattedNumber(num){
 	if(num=="-"){
 		return "";
