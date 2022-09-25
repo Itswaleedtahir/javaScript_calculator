@@ -6,6 +6,7 @@ function getHistory(){
 function printHistory(num){
 	document.getElementById("history-value").innerText=num;
 }
+//Output Value
 function getOutput(){
 	return document.getElementById("output-value").innerText;
 }
