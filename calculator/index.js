@@ -1,3 +1,4 @@
+//Getting History Data
 function getHistory(){
 	return document.getElementById("history-value").innerText;
 }
