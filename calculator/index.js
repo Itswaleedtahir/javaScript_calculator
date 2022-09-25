@@ -10,6 +10,7 @@ function printHistory(num){
 function getOutput(){
 	return document.getElementById("output-value").innerText;
 }
+//Inputting the value
 function printOutput(num){
 	if(num==""){
 		document.getElementById("output-value").innerText=num;
